@@ -1,50 +1,68 @@
-// package snackbarApp;
+package snackbarApp;
 
-// public class Snack {
-//     private static int maxId = 0;
+public class Snack {
+    private static int maxId = 0;
+
+	private int id;
+	private String name;
+    private int quantity;
+    private double cost;
+    private int vmId;
+
+
+	public Snack(String name)
+	{
+		maxId++;
+		id = maxId;
+
+		this.name = name;
+	}
+
+	public int getId()
+	{
+		return id;
+	}
+
+	public String getName()
+	{
+		return name;
+	}
+
+	public void setName(String name)
+    {
+    	this.name = name;
+    }
+
+	public double cost()
+	{
+		return cost;
+	}
+
+	public void setcost(double cost)
+    {
+    	this.cost = cost;
+    }
+
+	public int getvmId()
+	{
+		return vmId;
+	}
+
+	public void setvmId(int vmId)
+    {
+    	this.vmId = vmId;
+    }
 	
-// 	private int id;
+	public int getQuantity()
+	{
+		return quantity;
+	}
 
-// 	private String name;
+//add quantity when given how many to add
 
-//     private int quantity;
+//buy snack when given how many to buy
 
-//     private double cost;
+//get total cost given a quantity
 
-//     private int vending_machine_id;
-
-
-// 	public Snack(String name)
-// 	{
-// 		maxId++;
-// 		id = maxId;
-
-// 		this.name = name;
-// 	}
-
-// 	public int getId()
-// 	{
-// 		return id;
-// 	}
-
-// 	public String getName()
-// 	{
-// 		return name;
-// 	}
-
-//     public int getVending_machine_id()
-// 	{
-// 		return vending_machine_id;
-// 	}
-
-// 	public double cost()
-// 	{
-// 		return cost;
-// 	}
-
-// 	public int getQuantity()
-// 	{
-// 		return quantity;
-// 	}
-// }
+}
 

@@ -7,19 +7,17 @@ public class Customer
 	private int id;
 	private String name;
 	private double cashonHand;
-//  private double cash;
 
 
-    public Customer(String name, double cashonHand)//, double cash)
+    public Customer(String name, double cashonHand)
     {
     	maxId++;
     	id = maxId;
 
     	this.name = name;
-      // this.cash = cash;
+   
     	this.cashonHand = cashonHand;
     }
-
 
     public int getId()
     {
@@ -36,29 +34,13 @@ public class Customer
     	this.name = name;
     }
 
+//add cash to cash on hand
+
       public double getcashonHand()
     {
     	return cashonHand;
     }
 
-    public void setcashonHand(double cashonHand)
-    {
-    	this.cashonHand = cashonHand;
-    }
-
-//     public double getcash()
-//     {
-//     	return cash;
-//     }
-
-//     public void setcash(double cash)
-//     {
-//     	this.cash = cash;
-//     }
-
-//    public Double addCashtoCashonHand()
-//     {
-//     	return cashonHand + cash;
-//     }
+//buy snacks. Given the total cost of the snacks to be purchased, reduce the cash on hand by that amount
 
 }
