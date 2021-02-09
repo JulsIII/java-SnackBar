@@ -33,11 +33,11 @@ public class Customer
     	this.name = name;
     }
 
-    public double cash()
+    public double getCash()
     {
     	return cash;
     }
-    
+
 
 //add cash to cash on hand
     public void addCash(double amount)

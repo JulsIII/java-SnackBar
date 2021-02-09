@@ -30,11 +30,4 @@ public class VendingMachine
     	this.name = name;
     }
 
-// 	@Override
-// 	public String toString()
-// 	{
-// 		String tmpString = "VendingOutput: " + "id: " + id + " name: " + name;
-// 		return tmpString;
-	// }
-
 }
