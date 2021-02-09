@@ -15,7 +15,6 @@ public class Customer
     	id = maxId;
 
     	this.name = name;
-   
     	this.cashonHand = cashonHand;
     }
 

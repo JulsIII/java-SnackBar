@@ -10,12 +10,15 @@ public class Snack {
     private int vmId;
 
 
-	public Snack(String name)
+	public Snack(String name, int quantity, double cost, int vmId)
 	{
 		maxId++;
 		id = maxId;
 
 		this.name = name;
+		this.quantity = quantity;
+		this.cost = cost;
+		this.vmId = vmId;
 	}
 
 	public int getId()
