@@ -11,7 +11,6 @@ public class Main
             Customer  c2 = new Customer("Jewl", 33.14);
 //         Customer  cus3 = new Customer("Ct. Dracula", 750.00);
 
-
             VendingMachine v1 = new VendingMachine("Food");
             VendingMachine v2 = new VendingMachine("Drink");
             VendingMachine v3 = new VendingMachine("Office");

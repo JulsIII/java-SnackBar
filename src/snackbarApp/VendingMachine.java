@@ -1,6 +1,5 @@
 package snackbarApp;
 
-
 public class VendingMachine
 {
 	private static int maxId = 0;

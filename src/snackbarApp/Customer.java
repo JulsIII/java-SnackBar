@@ -38,7 +38,6 @@ public class Customer
     	return cash;
     }
 
-
 //add cash to cash on hand
     public void addCash(double amount)
   {
