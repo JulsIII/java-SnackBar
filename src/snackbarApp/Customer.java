@@ -2,59 +2,63 @@ package snackbarApp;
 
 public class Customer
 {
-	// info about an employee, what does an employee know
-	// primative / base data types are lowercase - int, boolean, long, double, char
-	// String is a class - classes are in caps!
+
 	private static int maxId = 0;
 	private int id;
 	private String name;
 	private double cashonHand;
+//  private double cash;
 
-    // behaviors - methods, actions
-    // constructor
-    // state -> setting a value for the fields
-    /*
-          Multi lines!!!
-     */
-    public Customer(String name, double cashonHand)
+
+    public Customer(String name, double cashonHand)//, double cash)
     {
     	maxId++;
     	id = maxId;
 
     	this.name = name;
+      // this.cash = cash;
     	this.cashonHand = cashonHand;
     }
 
-    // getters and setters
+
     public int getId()
     {
     	return id;
     }
 
-    public String getname()
+    public String getName()
     {
     	return name;
     }
 
-    public void setFname(String fname)
+    public void setName(String name)
     {
     	this.name = name;
     }
 
-      public double cashonHand()
+      public double getcashonHand()
     {
     	return cashonHand;
     }
 
-    public void cashonHand(double cashonHand)
+    public void setcashonHand(double cashonHand)
     {
     	this.cashonHand = cashonHand;
     }
 
+//     public double getcash()
+//     {
+//     	return cash;
+//     }
 
-    // other methods
-    // public String returnFullName()
-    // {
-    // 	return fname + " " + lname;
-    // }
+//     public void setcash(double cash)
+//     {
+//     	this.cash = cash;
+//     }
+
+//    public Double addCashtoCashonHand()
+//     {
+//     	return cashonHand + cash;
+//     }
+
 }
