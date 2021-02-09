@@ -61,6 +61,12 @@ public class Snack {
 		return quantity;
 	}
 
+	public int addQuantity()
+	{
+		return quantity;
+	}
+
+
 //add quantity when given how many to add
 
 //buy snack when given how many to buy
